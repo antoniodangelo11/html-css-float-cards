@@ -29,13 +29,8 @@ p {
     margin-bottom: 2em;
 }
 
-section::after {
-    content: "";
-    display: block;
-    margin-bottom: 2.5em;
-}
-
 .box-member {
+    float: left;
     margin-right: 1.5em;
     width: 350px;
     height: 100px;

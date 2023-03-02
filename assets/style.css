@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: 'Fredoka One', cursive;;
+    font-family: 'Fredoka One';
 }
 
 body {
@@ -26,5 +26,24 @@ h1 {
 
 p {
     text-align: center;
-    
+    margin-bottom: 2em;
+}
+
+section::after {
+    content: "";
+    display: block;
+    margin-bottom: 2.5em;
+}
+
+.box-member {
+    margin-right: 1.5em;
+    width: 350px;
+    height: 100px;
+    background-color: #0F0E17;
+    color: rgb(255, 255, 255);
+}
+
+.size-image {
+    float: left;
+    width: 100px;
 }

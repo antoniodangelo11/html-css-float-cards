@@ -45,6 +45,7 @@ p {
 }
 
 .member-name {
+    font-weight: 800;
     font-size: large;
     padding-left: 110px;
     padding-top: 15px;

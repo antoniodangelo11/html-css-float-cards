@@ -2,7 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-family: 'Fredoka', sans-serif;
 }
 
 body {
@@ -14,7 +17,6 @@ h1 {
     margin-bottom: 1.5em;
     color: #E53170;
     text-align: center;
-    font-family: 'Fredoka One';
 }
 
 .container {
@@ -42,7 +44,19 @@ p {
     height: 100px;
 }
 
-.member-data {
-    padding-top: 1rem;
-    padding-left: 7rem;
+.member-name {
+    font-size: large;
+    padding-left: 110px;
+    padding-top: 15px;
+}
+
+.work-type {
+    padding-left: 110px;
+    padding-top: 5px;
+}
+
+.link-mail {
+    padding-left: 110px;
+    padding-top: 5px;
+    color: #48A8B8;
 }

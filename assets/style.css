@@ -29,11 +29,12 @@ p {
 
 .box-member {
     float: left;
-    margin: 1.5rem;
-    width: calc(100% / 3 - 3rem);
+    margin: 1.5rem 1rem; 
+    width: calc(100% / 3 - 2rem);
     height: 100%;
     background-color: #0F0E17;
     color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0);
 }
 
 .size-image {
@@ -41,13 +42,7 @@ p {
     height: 100px;
 }
 
-.member-name {
-    font-family: 'Fredoka One';
-    font-size: large;
-    margin-bottom: .5e;
+.member-data {
+    padding-top: 1rem;
+    padding-left: 7rem;
 }
-
-.work-type {
-
-}
-

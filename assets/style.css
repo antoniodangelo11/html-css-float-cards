@@ -4,3 +4,27 @@
 	box-sizing: border-box;
 }
 
+html {
+    font-family: 'Fredoka One', cursive;;
+}
+
+body {
+    padding-top: 2em;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    margin-bottom: 1.5em;
+    color: #E53170;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    
+}

@@ -42,6 +42,9 @@ p {
 .size-image {
     float: left;
     height: 100px;
+    width: 27%;
+    object-fit: cover;
+    object-position: left;
 }
 
 .member-name {

@@ -40,6 +40,7 @@ p {
 }
 
 .size-image {
+    margin-right: 10px;
     float: left;
     height: 100px;
     width: 27%;
@@ -50,17 +51,15 @@ p {
 .member-name {
     font-weight: 800;
     font-size: large;
-    padding-left: 110px;
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .work-type {
-    padding-left: 110px;
-    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .link-mail {
-    padding-left: 110px;
-    padding-top: 5px;
+    padding-bottom: 5px;
     color: #48A8B8;
 }
